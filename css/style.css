@@ -1,0 +1,127 @@
+.ejemplo{
+  background-color: grey;
+}
+/*Color del Fondo del Menu*/
+.fondo{
+  background-color: black;
+}
+/*Fin fondo del Menu*/
+/* Color de las letras del menu*/
+.fondo a{
+  color:white;
+}
+/*Fin color de letras del menu */
+
+.fondo3{
+  background: url('../img/blanco1.jpg');
+}
+
+.fondoservicios{
+  background: url('../img/fondo2.jpg')fixed;
+  padding: 120px 0;
+}
+
+.fondocomunicados{
+  background: url('../img/fondo2.jpg')fixed;
+  padding: 120px 0;
+}
+.fondocalendario{
+  background: url('../img/fondo2.jpg')fixed;
+  padding: 120px 0;
+}
+
+.fondocontacto{
+  background: url('../img/fondo2.jpg')fixed;
+  padding: 120px 0;
+}
+
+th, td{
+  background: url('../img/fondo2.jpg')fixed;
+  padding: 200px 0;
+}
+
+.fondo4{
+  background: url('../img/blanco0.jpg');
+}
+
+/*Codigo para cambiar partes del menu cuando se de clic*/
+.fondo a:hover{
+  color: #008080;
+}
+/*Fin codigo para cambiar las partes del menu*/
+
+.fondotiposervicios{
+  background: url('../img/blanco1.jpg');
+}
+
+/*Ajuste a la columna*/
+.ajuste{
+margin-top: 100px;
+}
+/*Fin ajuste a la columna*/
+
+#accion{
+  color: white;
+}
+
+
+/* Inicio Hero */
+.hero-section {
+                      /*"../img/soporte.jpg"*/
+  background: url("../img/fondo2.jpg")fixed 50% no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/* Fin Hero */
+
+#Footer{
+  font-size: small;
+  background-color: black;
+}
+h1, h2, h3{
+  font-family: 'Pattaya', sans-serif;
+}
+
+
+/* CALENDARIOA INICIO*/
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+
+
+/*FIN CALENDARIO*/

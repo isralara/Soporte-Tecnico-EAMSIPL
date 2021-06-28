@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Servicio Técnico-EAMSIPL</title>
+        <!-- foundation-float.min.css: Compressed CSS with legacy Float Grid -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-float.min.css" integrity="sha256-4ldVyEvC86/kae2IBWw+eJrTiwNEbUUTmN0zkP4luL4=" crossorigin="anonymous">
+
+    <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css" integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok=" crossorigin="anonymous">
+
+    <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
+    <!-- Estilo Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- libreria de iconos font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- instalar fuente de google -->
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <!-- fin instalar fuente de google-->
+  </head>
+  <body>
+    <!--Inicio del header -->
+<div class="hero-section">
+  <div class="hero-section-text">
+    <h1>EAMSIPL</h1>
+    <h5>Soporte y Atención Técnica</h5>
+  </div>
+</div>
+    <!--Termina el header -->
+    <!-- Inicia la barra de navegacion -->
+    <nav class="fondo">
+      <ul class = "menu align-center">
+        <li> <a href="#">Inicio</a> </li>
+        <li> <a href="#Servicios">Servicios</a> </li>
+        <li> <a href="#Comunicados">Comunicados</a> </li>
+    <!--  <li> <a href="#Calendario de Eventos">Calendario de Eventos</a> </li> -->
+        <li> <a href="#Contacto">Contacto</a> </li>
+      </ul>
+    </nav>
+    <!-- Termina la barra de navegacion -->
+    <!-- Inicia seccion Servicios -->
+    <section id="Servicios" class="margen fondoservicios">
+    <div class="row">
+      <div class="columns large-12">
+        <h2> <font color = "white">Servicios</h2>
+        <p>Nuestra organización cuenta con un servicio, ya sea presencial o a distancia,<br>
+          que tiene el fin de brindar una asistencia técnica útil y profesional
+          que pueda suplir con las necesidades de nuestros clientes.
+        </p>
+      </div>
+      <div class="columns large-6 ">
+        <img src="img/tecnico2.jpg" align="left" width="245%"></p>
+      </div>
+      <div class="columns large-6 ">
+        <div class="callout secondary fondotiposervicios">
+          <h3 class="text-center">Servicio a Distancia     <i class="fas fa-phone-volume"></i><br></h3>
+          <p>El técnico asiste al domicilio del cliente para dar solucion y/o mantenimiento al equipo de computo</p>
+          <a data-open="distancia"><b>Contratar</b></a>
+        </div>
+        <div class="callout secondary fondotiposervicios">
+          <h3 class="text-center">Servicio Presencial <i class="fas fa-house-user"></i><br></h3>
+          <p>Nos enfocamos en dar solución al problema por medio telefonico indicando los pasos a seguir para la solución del problema</p>
+          <a data-open="presencial"><b>Contratar</b></a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Termina seccion Servicios -->
+    <!-- inicio Formulario presencial-->
+    <div class="reveal fondo3" id="distancia" data-reveal>
+     <h1>Usted Esta Solicitando Servicio a Distancia</h1>
+  <!--inicio texto -->
+   <form class="" action="index.html" method="post">
+    <!-- Ingresa Nombre -->
+    <label for="aviso"> <b>---------------------------------Favor de rellenar todos los recuadros-------------------------------</b> </label>
+    <label for="nombre"> <b>Nombre y Apellidos*</b> </label>
+    <input type="text" name="nombre" value=""placeholder="nombre" required>
+    <!-- Ingresa Correo -->
+    <label for="correo"> <b>Correo*</b> </label>
+    <input type="email" name="correo" value=""placeholder="Coreo" required>
+    <label for="telefono"> <b>Telefono*</b> </label>
+    <input type="tel" name="telefono" value=""placeholder="Telefono" required>
+    <label for="mensaje"> <b>Describa su problema o el motivo de la consulta*</b> </label>
+    <textarea name="mensaje" rows="4" cols="80" placeholder="Escribe tu Mensaje" required></textarea>
+    <br>
+    <div class="expanded button-group">
+      <button type="reset" name="button" class="button"> <b>Borrar Campos</b> </button>
+      <button  type="submit" name="button" class="button"> <b>Solicitar Servicio</b> </button>
+    </div>
+  </form>
+  <br>
+  <!--Fin texto -->
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+    <!--Fin Formulario presencial-->
+    <!--inicio formulario Distancia -->
+    <div class="reveal fondo3" id="presencial" data-reveal>
+    <h1>Usted Esta Solicitando Servicio Presencial</h1>
+    <!--inicio texto -->
+    <form class="" action="index.html" method="get" action="https://www.youtube.com/watch?v=83SC6Lzb-tE">
+    <!-- Ingresa Nombre -->
+    <label for="aviso"> <b>---------------------------------Favor de rellenar todos los recuadros-------------------------------</b> </label>
+    <label for="nombre"><b>Nombre y Apellidos*</b></label>
+    <input type="text" name="nombre" value=""placeholder="nombre" required>
+    <!-- Ingresa direccion -->
+    <label for="ciudad"> <b>Ciudad*</b> </label>
+    <input type="text" name="ciudad" value="" placeholder="ciudad" required>
+    <label for="municipio"> <b>Municipio*</b> </label>
+    <input type="text" name="municipio" value="" placeholder="municipio" required>
+    <label for="colonia"> <b>Colonia*</b> </label>
+    <input type="text" name="colonia" value="" placeholder="colonia" required>
+    <label for="calle"> <b>Calle*</b> </label>
+    <input type="text" name="calle" value="" placeholder="calle" required>
+    <label for="entre_calles"> <b>Entre las Calles*</b> </label>
+    <input type="text" name="entre_calles" value="" placeholder="Entre las Calles" required>
+    <label for="cp"> <b>Código Postal*</b> </label>
+    <input type="text" name="cp" value="" placeholder="CP" required>
+    <!-- Referencias extra de direccion -->
+    <label for="refences"> <b>Referencias extra del Domicilio*</b> </label>
+    <textarea name="mensaje" rows="4" cols="40" placeholder="Refencias extra"></textarea>
+    <!-- Ingresa Correo -->
+    <label for="correo"> <b>Correo*</b> </label>
+    <input type="email" name="correo" value=""placeholder="Coreo" required>
+    <label for="telefono"> <b>Telefono*</b> </label>
+    <input type="tel" name="telefono" value=""placeholder="Telefono" required>
+    <label for="mensaje"> <b>Describa su problema o el motivo de la consulta*</b> </label>
+    <textarea name="mensaje" rows="4" cols="80" placeholder="Escribe tu Mensaje" required></textarea>
+    <br>
+    <div class="expanded button-group">
+      <button type="reset" name="button" class="button"><b>Borrar Campos</b></button>
+      <button  type="submit" name="button" class="button"><b>Solicitar Servicio</b></button>
+    </div>
+    </form>
+    <br>
+    <!--Fin texto -->
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <!--Fin formulario Distancia -->
+    <!-- Seccion de Comunicados-->
+    <section id = Comunicados class="margen fondocomunicados">
+      <div class="row">
+        <div class="columns large-8 smaill-12 ajuste">
+          <h2>Nuestros Comunicados</h2>
+          <p>Nuestra organización cuenta con un servicio, ya sea presencial o a distancia, que tiene el fin de brindar
+            una asistencia técnica útil y profesional que pueda suplir con las necesidades de nuestros clientes.
+          </p>
+          <p>
+            Los servicios que ofrecemos varian dependiendo si requieren realizarse de manera presencial o si es posible a distancia
+          </p>
+          <ul>
+              <li><b>Presencial</b> <img src="img/tecnico.jpg" align="left" width="60%"></li>
+              <p>1- Limpieza de Harware <br>
+               2- Cambio de componentes dañados<br>
+               3- Análisis de funcionamiento<br>
+               4- Actualización de Hardware</p>
+
+              <li><b>Distancia</b></li>
+              <p>1- Actualización de Sistema Operativo <br>
+                 2- Actualización de Aplicaciones<br>
+                 3- Soporte sobre el uso de Aplicaciones<br>
+                 4- Errores de software y/o Hardware de facil correción</p>
+
+              <li><b>Mixto</b></li>
+              <p>1- Mantenimiento Preventivo<br>
+              Este tipo de mantenimientos se pueden programar para realizarse cada 3, 6, 8 u 12 meses<br>
+              2- Mantenimiento Correctivo <br>
+              3- Análisis de amenazas de software<br>
+              4- Actualización de Software</p>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Termina seccion Servicios-->
+    <!-- Inicia Calendario -->
+<!--    <section id="Calendario de Eventos" class="margon fondocalendario">
+      <div class="row">
+        <div class="columns large-12">
+          <h2 class="text-center">Muestro calendario de Eventos <br> <small>Proximos Eventos</small> </h2>
+        </div>
+      </div>
+    </section>
+ <div class="featured-image-block-grid">
+  <div class="featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
+    <h2>Top Destinations</h2>
+    <p>Start planning your travels here with the latest deals for popular destinations.</p>
+  </div>
+  <div class="row large-up-4 small-up-2">
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=899" />
+        <p class="text-center featured-image-block-title">New York</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=693" />
+        <p class="text-center featured-image-block-title">San Francisco</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=452" />
+        <p class="text-center featured-image-block-title">Las Vegas</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=792" />
+        <p class="text-center featured-image-block-title">Sacramento</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=667" />
+        <p class="text-center featured-image-block-title">Los Angeles</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=249" />
+        <p class="text-center featured-image-block-title">Chicago</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=382" />
+        <p class="text-center featured-image-block-title">Boston</p>
+      </a>
+    </div>
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=1075" />
+        <p class="text-center featured-image-block-title">Seattle</p>
+      </a>
+    </div>
+  </div>
+</div> -->
+    <!-- Termina Calendario -->
+    <!-- Inicia Contacto -->
+    <section id="Contacto" class="margen fondocontacto">
+      <div class="row">
+        <div class="columns large-12">
+          <h2 class="text-center">Contacto<br><small>Nuestro Contacto</small></h2>
+        </div>
+        <div class="columns large-6 small-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15063.469135313777!2d-98.9975945809204!3d19.28813682606859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x349f35ed189e88f2!2sTechnological%20Institute%20of%20Tl%C3%A1huac!5e0!3m2!1sen!2smx!4v1620957015850!5m2!1sen!2smx" width="571" height="471" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <table >
+            <tbody>
+              <tr>
+                <th>Ciudad</th>
+                <td>CDMX</td>
+              </tr>
+              <tr>
+                <th>Delegación</th>
+                <td>Tlahuac</td>
+              </tr>
+              <tr>
+                <th>Colonia</th>
+                <td>Ampliación Selene</td>
+              </tr>
+              <tr>
+                <th>Calle</th>
+                <td>Av Estanislao Ramírez Ruíz</td>
+              </tr>
+              <th>Código Postal</th>
+              <td>13420</td>
+              <tr>
+                <th>Correo</th>
+              <td><a href="mailto:ServicioTecnicoEAMSIPL@gmail.com">ServicioTecnicoEAMSIPL@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Telefono</th>
+                <td>5571886678</td>
+              </tr>
+              <tr>
+                <th>Horario</th>
+                <td>Lunes a Viernes de 9am a 5pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="columns large-12 row large-4">
+          <img src="img/contacto2.jpg" align="right" width="35%"></p>
+        </div>
+      </div>
+    </section>
+    <!-- Termina Contacto -->
+     <!-- inicia aviso de terminos y condiciones -->
+    <div class="reveal fondo4" id="terminos" data-reveal>
+      <b>-------------------------------------------------------------------------------------------------------------------------</b>
+     <h1>Terminos y Condiciones</h1>
+  <!--inicio texto -->
+      <form class="" action="index.html" method="post">
+    <!-- Ingresa Nombre -->
+    <label for="derechos"> <b>-------------------------------------------------------------------------------------------------------------------------</b> </label>
+    <b>These Terms of Use (“Terms”) are a legal agreement between you and Logitech and govern your use of this Website either as a visitor, content contributor, or as a registered user. Use of, posting of information to, and access to this Website are subject to your compliance with these Terms, so please read them carefully before using this Website. Logitech reserves the right to limit or terminate your access to this Website or terminate or suspend your registration for failure to comply with the terms and policies posted on this Website, including these Terms, or for any reason at any time. BY ACCESSING AND USING THIS WEBSITE IN ANY WAY, YOU AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT AGREE TO ALL OF THE TERMS AND CONDITIONS, DO NOT USE OR POST INFORMATION ON THIS WEBSITE IN ANY MANNER.</b>
+    <b>-------------------------------------------------------------------------------------------------------------------------</b>
+    <h1>Información de Usuario</h1>
+    <b>-------------------------------------------------------------------------------------------------------------------------</b>
+    <b>To use certain parts of this Website, you will be asked to provide information about yourself, such as your first name, e-mail address, password, city, state, country zip code, or postal code. You are entirely responsible for maintaining the confidentiality of your account information, including your password, and for any and all activity that occurs under your account. You agree to notify Logitech immediately of any unauthorized use of your account or password, or any other breach of security. You may be held liable for losses incurred by Logitech or any other user of or visitor to this Website due to the use of your Logitech ID, password, or account by another person.
+    You may not use anyone else’s Logitech ID, password, or account at any time without the express permission and consent of the holder of that Logitech ID, password, or account. Logitech user account and passwords are for individual use only and should not be shared. Group-based and generic accounts are prohibited. Logitech cannot and will not be liable for any loss or damage arising from your failure to comply with these obligations.</b>
+    </form>
+  <!--Fin texto -->
+</div>
+<!-- termina aviso de terminos y condiciones -->
+<!-- inicia aviso de privacidad -->
+<div class="reveal fondo4" id="privacidad" data-reveal>
+  <b>-------------------------------------------------------------------------------------------------------------------------</b>
+ <h1>Aviso de Privacidad</h1>
+<!--inicio texto -->
+<form class="" action="index.html" method="post">
+<label for="derechos"> <b>-------------------------------------------------------------------------------------------------------------------------</b> </label>
+<b>Logitech, Inc. and its affiliates (collectively “Logitech”, “We” and “Us”) respect your privacy. This Privacy Statement explains how Logitech collects and uses personal data from visitors to its web and mobile sites that link directly to this Privacy Statement (collectively “Sites”).
+If you call us, send us an email, or fill out a form on one of our Sites, we use the information you provide to respond to your request or to otherwise communicate with you or assist you. If you make purchases through our Sites, we may collect data necessary to process your order, such as your shipping address, products ordered, and your contact information.</b>
+<b>-------------------------------------------------------------------------------------------------------------------------</b>
+<h1>Politica de Privacidad</h1>
+<b>-------------------------------------------------------------------------------------------------------------------------</b>
+<b>Logitech respects your desire for privacy and takes care to protect the personal information you provide us. Logitech’s privacy policy can be found at www.logitech.com/privacy. By using this Website, you are consenting to the terms of our privacy policy.
+Logitech has security measures in place to protect the loss, misuse, and alteration of the information under Logitech's control. These security measures are described in our privacy policy.
+Although Logitech has taken the steps described in our privacy policy to ensure that your personal information is delivered and disclosed only in accordance with our privacy policy, Logitech does not guarantee that the personal information you provide will not be intercepted by others and decrypted.</b>
+</form>
+<!--Fin texto -->
+</div>
+<!-- termina aviso de privacidad -->
+    <!-- Footer -->
+    <section id="Footer" class="margen">
+      <div class="row">
+        <div class="columns large-4 small-12">
+          <ul class="menu align-center">
+            <li> <a href="#">©2021 EAMSIPL. Todos los derechos reservados</a></li>
+            <li> <a data-open="terminos">Terminos y Condiciones</a></li>
+            <li> <a data-open="privacidad">Aviso de Privacidad</a></li>
+          </ul>
+        </div>
+        <div class="columns large-4 small-12">
+          <ul class="menu align-right">
+            <li><a href="mailto:ServicioTecnicoEAMSIPL@gmail.com">Quejas y Sugerencias</a></li>
+            <li> <a href="https://www.facebook.com/Servicio-T%C3%A9cnico-EAMSIPL-101781775490855/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li> <a href="https://www.instagram.com/eamsipl/" target="_blank"><i class="fab fa-instagram-square"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--Fin Footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
